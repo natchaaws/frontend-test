@@ -27,16 +27,9 @@ import "datatables.net-buttons/js/buttons.colVis";
 import "datatables.net-buttons/js/buttons.flash";
 import "datatables.net-buttons/js/buttons.html5";
 import "datatables.net-buttons/js/buttons.print";
-import ref from 'vue-ref'
-import VueCountdown from '@chenfengyuan/vue-countdown';
-
-import VueChartkick from 'vue-chartkick'
-import 'chartkick/chart.js'
 
 
 createApp(App)
-.component(VueCountdown.name, VueCountdown)
-.use(ref)
 .use(router)
 .component('font-awesome-icon', FontAwesomeIcon)
 .use(Toast, {
@@ -45,8 +38,6 @@ createApp(App)
     newestOnTop: true
   })
 .use(VueSweetalert2)
-.use(VueChartkick)
-
 .mount('#app')
 
 

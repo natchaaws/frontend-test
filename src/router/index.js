@@ -1,8 +1,4 @@
 import { createWebHistory, createRouter } from "vue-router";
-
-//test
-import countDown from "@/components/countDown.vue";
-
 //admin
 import LoginAdmin from "@/components/Admin/adminLogin.vue";
 import CreateTrain from "@/components/Admin/Train/CreateTrain.vue";
@@ -31,12 +27,6 @@ import navVuebarUser from "@/components/view/navVuebarUser.vue";
 import ShowUser from "@/components/User/showUser.vue";
 
 const routes = [
-  {
-    path: "/countDown",
-    name: "countDown",
-    component: countDown,
-  },
-
   //navVuebarUser
   {
     path: "/test",
