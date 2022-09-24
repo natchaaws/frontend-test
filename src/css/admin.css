@@ -1,0 +1,79 @@
+	/* Coded with love by Mutiullah Samim */
+	/* eslint-disable */
+	@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600&display=swap');
+	
+	.title{
+		font-size: bold;
+	}
+	.bg-admin{
+		background: rgb(103,51,226);
+		background: linear-gradient(320deg, rgba(77,25,201,1) 0%, rgba(104,46,244,1) 50%, rgba(168,131,255,1) 100%);
+		height:100vh
+	}
+	.font-color-ad{
+		color: #ffffff;
+		font-size: larger;
+		font: bold;
+	}
+	.admin-card-login {
+		height: 370px;
+		width: 350px;
+		margin-top: 25vh;
+		margin-bottom: auto;
+		background: #f0f0f0;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px;
+        align-items: center;
+	}
+	.login_btn_ad {
+		width: 100%;
+		background: none !important;
+		border: 1px solid rgb(103,51,226);
+		color: rgb(103,51,226) !important;
+	}
+	.login_btn_ad:hover {
+		background: rgb(103,51,226) !important;
+		color: white !important;
+	}
+	.login_btn:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+	}
+	.login_container {
+		padding: 0 2rem;
+	}
+	.input-group-text-ad {
+		background: #ffc41b !important;
+		color: white !important;
+		border: 0 !important;
+		border-radius: 0.25rem 0 0 0.25rem !important;
+		display: flex;
+		align-items: center;
+		padding: 0.375rem 0.75rem;
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #212529;
+		text-align: center;
+		white-space: nowrap;
+		background-color: #e9ecef;
+		border: 1px solid #ced4da;
+		border-radius: 0.375rem;
+	}
+	.input_admintor,
+	.input_pass:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+	}
+	.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+		background-color: #ffc41b !important;
+	}
+
+	

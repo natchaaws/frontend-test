@@ -1,0 +1,37 @@
+/* .user_card_main {
+    height: 150px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    opacity: 0.9;
+    align-items: center;
+}
+
+ .list_crad{
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+
+ }
+
+ .row1 {
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+    font-size: 30px;
+ } */

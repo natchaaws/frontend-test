@@ -1,0 +1,64 @@
+	/* Coded with love by Mutiullah Samim */
+	/* eslint-disable */
+	@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600&display=swap');
+	
+
+	.title{
+		font-size: bold;
+	}
+	.user_card_reg {
+		background: #fcf8ef;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 10px;
+	}
+	.form_container {
+		margin-top: 40px;
+	}
+
+	
+	.login1_btn {
+		width: 100%;
+		background: #6733e2 !important;
+		color: white !important; /* สีตัวหนังสือปุ่ม*/
+	}
+	.login_btn:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+	}
+	.login_container {
+		padding: 0 2rem;
+	}
+	.input-group-text-1 {
+		background: #6733e2 !important;
+		color: #ffffff !important;
+		border: 0 !important;
+		border-radius: 0.25rem 0 0 0.25rem !important;
+		display: flex;
+		align-items: center;
+		padding: 0.375rem 0.75rem;
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #212529;
+		text-align: center;
+		white-space: nowrap;
+		background-color: #e9ecef;
+		border: 1px solid #ced4da;
+		border-radius: 0.375rem;
+	}
+	.input_fname,
+	.input_lname,
+	.input_user,
+	.input_degree,
+	.input_pass:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+
+	}
+	.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+		background-color: #c0392b !important;
+	}
+
+	
